@@ -3,7 +3,7 @@ import org.junit.Test
 class VariablesPractice {
 
     @Test
-    public void declareVariables(){
+    public void declareVariable(){
         def sum = 3 + 5
         println "$sum"
     }
