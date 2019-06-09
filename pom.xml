@@ -17,10 +17,20 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>3.0.0-beta-1</version>
+      <type>pom</type>
+    </dependency>
+
   </dependencies>
 
   <modules>
     <module>strings</module>
+    <module>date-time</module>
+    <module>variables</module>
   </modules>
 
   <build>
