@@ -31,6 +31,8 @@
     <module>strings</module>
     <module>date-time</module>
     <module>variables</module>
+    <module>file-io</module>
+    <module>xml</module>
   </modules>
 
   <build>
