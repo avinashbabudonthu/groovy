@@ -12,4 +12,18 @@ class ReadFile {
         final String fileContent = file.text
         println "$fileContent"
     }
+
+    @Test
+    void displayFilesInADirectory(){
+        final String directoryPath = "E:\\Backup\\Java-Prep\\groovy\\projects\\groovy\\file-io\\src\\test\\java\\com\\read\\file"
+        final File filePath = new File(directoryPath)
+        filePath.eachFile {file -> println "${file.getAbsolutePath()}"}
+    }
+
+    @Test
+    void displayFilesInDirectoryAndSubDirectory(){
+        final String directoryPath = "E:\\Backup\\Java-Prep\\groovy\\projects\\groovy\\file-io\\src\\test\\java"
+        final File filePath  = new File(directoryPath)
+        filePath.eachFileRecurse {file -> println "${file.getAbsolutePath()}"}
+    }
 }
