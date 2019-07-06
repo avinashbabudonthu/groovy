@@ -9,9 +9,9 @@
     <version>1.0</version>
   </parent>
 
-  <artifactId>variables</artifactId>
+  <artifactId>collections</artifactId>
 
-  <name>variables</name>
+  <name>collections</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>

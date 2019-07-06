@@ -30,9 +30,10 @@
   <modules>
     <module>strings</module>
     <module>date-time</module>
-    <module>variables</module>
     <module>file-io</module>
     <module>xml</module>
+    <module>collections</module>
+    <module>basics</module>
   </modules>
 
   <build>

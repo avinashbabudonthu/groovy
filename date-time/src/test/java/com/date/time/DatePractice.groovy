@@ -5,7 +5,7 @@ import org.junit.Test
 class DatePractice {
 
     @Test
-    public void todayDate(){
+    void todayDate(){
         println "Today's date = " + new Date()
     }
 }
