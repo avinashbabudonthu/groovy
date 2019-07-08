@@ -40,7 +40,8 @@ class RangePractice {
     }
 
     /**
-     * To print the last value of range
+     * 1. To print the last value of range
+     * 2. These from/to are called Extents
      */
     @Test
     void to(){

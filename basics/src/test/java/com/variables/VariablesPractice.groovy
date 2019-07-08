@@ -25,5 +25,4 @@ class VariablesPractice {
         println "score=$score from class=${score.getClass()}"
         println "name=$name from class=${name.getClass()}"
     }
-
 }

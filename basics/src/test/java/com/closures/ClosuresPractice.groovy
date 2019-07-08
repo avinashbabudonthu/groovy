@@ -17,8 +17,17 @@ class ClosuresPractice {
     @Test
     void forEachWithClosure(){
         def closure = {println "welcome to closures"}
-        (1..5).each {
+        (1..5).forEach {
             closure()
+        }
+    }
+
+    @Test
+    void eachWithClosure(){
+        def outSideClosure = {println "outside closure - welcome to closures $it"}
+        (1..5).each {
+            outSideClosure()
+            println "inside closure - welcome to closures $it"
         }
     }
 
@@ -31,6 +40,13 @@ class ClosuresPractice {
             it % 2 == 0
         }).each {
             println "number: $it"
+        }
+    }
+
+    @Test
+    void closureWithVariable(){
+        (1..5).each {number ->
+            println "number=$number"
         }
     }
 }

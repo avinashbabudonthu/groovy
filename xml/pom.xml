@@ -9,7 +9,9 @@
     <version>1.0</version>
   </parent>
 
+  <groupId>com.groovy</groupId>
   <artifactId>xml</artifactId>
+  <version>1.0</version>
 
   <name>xml</name>
   <url>http://maven.apache.org</url>

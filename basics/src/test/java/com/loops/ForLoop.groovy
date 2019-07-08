@@ -43,8 +43,8 @@ class ForLoop {
     void eachWithCloseWithCustomVariable(){
         def names = ["jack", "jill", "jim", "tim", "tony"]
 
-        names.each {i->
-            println "hello, $i"
+        names.each {name->
+            println "hello, $name"
         }
     }
 }
