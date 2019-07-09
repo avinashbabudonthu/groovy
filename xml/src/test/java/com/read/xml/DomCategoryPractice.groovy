@@ -1,6 +1,6 @@
-package com.read.file
+package com.read.xml
 
-import groovy.util.slurpersupport.GPathResult
+
 import org.junit.Test
 
 class DomCategoryPractice {

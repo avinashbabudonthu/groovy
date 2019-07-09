@@ -1,4 +1,4 @@
-package com.read.file
+package com.read.xml
 
 import org.junit.Test
 
@@ -14,7 +14,7 @@ class XmlSlurperPractice {
     void readNodes(){
         def filePath = "C:\\Java-Prep\\groovy\\projects\\groovy\\xml\\src\\main\\resources\\students.xml"
         def file = new File(filePath)
-        println "is file exist? = ${file.exists()}"
+        println "is xml exist? = ${file.exists()}"
 
         def slurpur = new XmlSlurper()
         def students = slurpur.parse(filePath)

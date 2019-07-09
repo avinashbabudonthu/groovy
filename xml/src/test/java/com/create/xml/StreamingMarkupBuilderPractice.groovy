@@ -1,4 +1,4 @@
-package com.create.file
+package com.create.xml
 
 import groovy.xml.StreamingMarkupBuilder
 import org.junit.Test

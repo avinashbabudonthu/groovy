@@ -1,4 +1,4 @@
-package com.read.file
+package com.read.xml
 
 import org.junit.Test
 
