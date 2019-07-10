@@ -1,5 +1,5 @@
 # Groovy List of Projects
-* [](basics)
+* [Basics](basics)
 * [Collections](collections)
 * [Date Time API](date-time)
 * [File IO](file-io)
